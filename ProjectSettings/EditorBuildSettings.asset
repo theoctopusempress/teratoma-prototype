@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/debug room.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: e2e4740eeb057ca4e86021a186620fef
   - enabled: 1
+    path: Assets/Scenes/moss backup.unity
+    guid: 659a3be85cc20584ea5d397ae5a55479
+  - enabled: 0
     path: Assets/Scenes/Test level.unity
     guid: 7056a7f1b6414d9499fdf53bc4bb43ae
   m_configObjects: {}

@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: -1223701590587196127}
   - component: {fileID: -4433099394209490592}
   - component: {fileID: -327119669361051952}
-  - component: {fileID: -2880805670709778691}
+  - component: {fileID: 475872843750059964}
   m_Layer: 9
   m_Name: BulletBaddie
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   Baddie: {fileID: 0}
   source: {fileID: 0}
   wall: {fileID: 0}
-  speed: 0.05
+  speed: 0.4
   damage: 25
 --- !u!212 &-327119669361051952
 SpriteRenderer:
@@ -151,22 +151,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &-2880805670709778691
-Animator:
-  serializedVersion: 3
+--- !u!114 &475872843750059964
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620930070878604822}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cb6fdcdd95f3dda4588c7fa9cc18df47, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ea20d863b572b47a49074cfc8d255c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationKey: {fileID: 2800000, guid: 5c3362b49ee7b4f4a950ece6965161bd, type: 3}
+  animationframe: []
+  startpoints: 0000000002000000
+  startName: []
+  spriteRenderer: {fileID: -327119669361051952}
+  animating: 0

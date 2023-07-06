@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2558022183149716790}
   - component: {fileID: 129143371243847365}
   - component: {fileID: -2733760331005347894}
+  - component: {fileID: 987322429448331419}
   m_Layer: 0
   m_Name: mosssword
   m_TagString: Untagged
@@ -29,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5531974728185371028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.24, y: 3.32, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: -3.245, y: 3.32, z: 0}
+  m_LocalScale: {x: 1.9958564, y: 1.9834254, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3042956889749385442, guid: 62ae9f7189c5bd443b82e63f3cfe83c0,
+  m_Sprite: {fileID: -7664579190218566605, guid: 62ae9f7189c5bd443b82e63f3cfe83c0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -101,6 +102,59 @@ MonoBehaviour:
   Player: {fileID: 5915039111010611052, guid: a9dfccec9eceeff488191683e56e2b96, type: 3}
   Baddie: {fileID: 5385924513247565243, guid: 61aedf2a699f149449cc17963b0dbc1f, type: 3}
   damage: 25
+  spritelist:
+  - {fileID: -4208637497173111446, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  - {fileID: -3042956889749385442, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  - {fileID: -1624218827590466585, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  - {fileID: 7693371288231378864, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  - {fileID: 7221704532867727910, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  - {fileID: 7142866131453727345, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  - {fileID: 5932407732451284360, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  - {fileID: -504690096008923917, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  - {fileID: -7664579190218566605, guid: 62ae9f7189c5bd443b82e63f3cfe83c0, type: 3}
+  spriteRenderer: {fileID: 5531974728185371035}
+  spriteNum: 0
+  BoxSizeX:
+  - 0.37
+  - 0.45
+  - 0.63
+  - 1.12
+  - 0.8
+  - 1.41
+  - 0.84
+  - 0.6
+  - 0.36
+  BoxSizeY:
+  - 0.85
+  - 0.92
+  - 1.12
+  - 0.56
+  - 0.76
+  - 1.36
+  - 1.86
+  - 1
+  - 0.92
+  BoxOffsetX:
+  - -0.7
+  - -0.62
+  - -0.6
+  - -0.52
+  - -0.4
+  - -0.22
+  - 0.06
+  - 0.62
+  - 0.86
+  BoxOffsetY:
+  - 0.45
+  - 0.5
+  - 0.64
+  - 0.64
+  - 0.76
+  - 0.74
+  - 8
+  - 0.62
+  - 0.46
+  blocking: 0
 --- !u!50 &2558022183149716790
 Rigidbody2D:
   serializedVersion: 4
@@ -135,7 +189,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.62022424, y: 0.50046754}
+  m_Offset: {x: 0.86052847, y: 0.46052283}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -146,7 +200,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.46077824, y: 0.9308567}
+  m_Size: {x: 0.36268544, y: 0.91805303}
   m_EdgeRadius: 0
 --- !u!95 &-2733760331005347894
 Animator:
@@ -156,7 +210,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5531974728185371028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f70d83cb997d6d64ea951ad1fa5d8ee0, type: 2}
   m_CullingMode: 0
@@ -167,3 +221,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &987322429448331419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5531974728185371028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee9a95837f82a2249aee8168227ff472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tags:
+  - partOfPlayer
+  - Sword

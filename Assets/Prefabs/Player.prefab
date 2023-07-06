@@ -89,7 +89,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5915039111010611051}
   - component: {fileID: 5915039111010611048}
+  - component: {fileID: 8329928104285220238}
   - component: {fileID: 5915039111010611049}
+  - component: {fileID: 10449911801771054}
   - component: {fileID: 5915039111010611054}
   - component: {fileID: 5915039111010611055}
   - component: {fileID: 1947907799}
@@ -167,6 +169,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8329928104285220238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5915039111010611052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ea20d863b572b47a49074cfc8d255c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationKey: {fileID: 0}
+  animationframe: []
+  startpoints: 
+  startName: []
+  spriteRenderer: {fileID: 0}
+  animating: 0
 --- !u!114 &5915039111010611049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76fa8a6fd14836540b82228d3c550d76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  field: {fileID: 0}
   speed: 20000
   BulletPrefab: {fileID: 1620930070878604822, guid: 8d301f6ba6385d04c8f1be6d75d29ee9,
     type: 3}
@@ -191,6 +210,33 @@ MonoBehaviour:
   playerRigidbody: {fileID: 5915039111010611054}
   aimPointer: {fileID: 4023546244066065412, guid: 8a48617d35a0e3c41994357dca9bfdd2,
     type: 3}
+  progressBar: {fileID: 0}
+  scrap: 0
+  gameManager: {fileID: 0}
+  isStunned: 0
+  lastStunned: 0
+  rb: {fileID: 0}
+  circle: {fileID: 0}
+  spritelist: []
+  spriteRenderer: {fileID: 0}
+--- !u!114 &10449911801771054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5915039111010611052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ea20d863b572b47a49074cfc8d255c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationKey: {fileID: 2800000, guid: 868bafcb3e1e82949893c2af89958ca1, type: 3}
+  animationframe: []
+  startpoints: 
+  startName: []
+  spriteRenderer: {fileID: 0}
+  animating: 0
 --- !u!50 &5915039111010611054
 Rigidbody2D:
   serializedVersion: 4
@@ -271,6 +317,11 @@ MonoBehaviour:
   blueKeyCard: {fileID: 7082998249484064666, guid: 069a277e35a28ea4699448f2fa996cb0,
     type: 3}
   corpse: {fileID: 320802475346126125, guid: 2869a3e62ae8f3a48a3ee1ea1a812a1e, type: 3}
+  maxHp: 0
+  maxEnrgy: 0
+  lastHp: 0
+  maxAmmo: 0
+  invulnerable: 0
 --- !u!58 &-4517076479250509217
 CircleCollider2D:
   m_ObjectHideFlags: 0

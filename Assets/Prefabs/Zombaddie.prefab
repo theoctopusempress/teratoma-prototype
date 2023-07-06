@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4803186005769658346}
   - component: {fileID: 4473319154710849456}
   - component: {fileID: 1816779483693106}
-  - component: {fileID: 1917496481821299079}
   - component: {fileID: 594883176356160452}
   - component: {fileID: 7200277365269783266}
   - component: {fileID: 6325184531761988347}
@@ -21,6 +20,7 @@ GameObject:
   - component: {fileID: -1737788810583175193}
   - component: {fileID: 3184509298526937164}
   - component: {fileID: 1259411590505174884}
+  - component: {fileID: -9115200201266377161}
   m_Layer: 9
   m_Name: Zombaddie
   m_TagString: Enemy
@@ -114,25 +114,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1917496481821299079
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3516774056662325650}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cf25881d605456e4b93d25d9275e85be, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &594883176356160452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,9 +126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0852f1d77f42de94f9f459dd728ce3e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Behindmask:
-    serializedVersion: 2
-    m_Bits: 512
   SoundWave: {fileID: 2206154179717757588, guid: 59db99ed437d08e41b36de23d9a78e99,
     type: 3}
   BulletPrefab: {fileID: 1620930070878604822, guid: 9f7fd92cc611f26479db3c670fb7e8e3,
@@ -170,6 +148,10 @@ MonoBehaviour:
   masterController: {fileID: 0}
   corpses: []
   fovLazer: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  IgnoreThis:
+    serializedVersion: 2
+    m_Bits: 513
 --- !u!114 &7200277365269783266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,7 +268,9 @@ MonoBehaviour:
   corpse: {fileID: 320802475346126125, guid: 2869a3e62ae8f3a48a3ee1ea1a812a1e, type: 3}
   maxHp: 0
   maxEnrgy: 0
+  lastHp: 0
   maxAmmo: 0
+  invulnerable: 0
 --- !u!114 &-1737788810583175193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,8 +284,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  animator: {fileID: 1917496481821299079}
   biteTime: 0
+  rb: {fileID: 0}
+  lockedAway: 0
+  corpse: {fileID: -1533878680513448033, guid: fd9c025e7d18c9244aa3926be81fbb8d, type: 3}
+  alive: {fileID: 21300000, guid: 8f5329de02f6fd6408f63147b65fd1f0, type: 3}
+  rend: {fileID: 1816779483693106}
 --- !u!114 &3184509298526937164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,6 +321,29 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.53110754
+--- !u!114 &-9115200201266377161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516774056662325650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ea20d863b572b47a49074cfc8d255c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationKey: {fileID: 2800000, guid: 80c17b8433ea7ab479993216993aa12e, type: 3}
+  animationframe: []
+  startpoints: 0000000001000000030000000e00000014000000
+  startName:
+  - 0
+  - 1
+  - 3
+  - 14
+  - 20
+  spriteRenderer: {fileID: 1816779483693106}
+  animating: 0
 --- !u!1 &5423356853870660517
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,3 +427,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zombi: {fileID: 3516774056662325650}
+  activatedScript: 
+  activatedFunction: 
+  targetTags: []

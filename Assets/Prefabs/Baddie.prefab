@@ -1,5 +1,75 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1623376926370527633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8707506682394890652}
+  - component: {fileID: 754354429196528205}
+  - component: {fileID: 1067873387214424506}
+  m_Layer: 0
+  m_Name: smeller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8707506682394890652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623376926370527633}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: -1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4096281874637083587}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &754354429196528205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623376926370527633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05de825bb4398fe42b7a875b4b695403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombi: {fileID: 5385924513247565243}
+  activatedScript: EnemyAI
+  activatedFunction: IsmellSomething
+  deactivatedFunction: IsmellNothing
+  targetTags:
+  - Player
+  - Corpse
+  smellsYa: 0
+  smellsNa: 0
+  smelt: {fileID: 0}
+--- !u!58 &1067873387214424506
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623376926370527633}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 10
 --- !u!1 &5385924513247565243
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +81,6 @@ GameObject:
   - component: {fileID: 4096281874637083587}
   - component: {fileID: -4295063493957653607}
   - component: {fileID: 8824459089864592411}
-  - component: {fileID: 6984206110871739822}
   - component: {fileID: -994801248583880723}
   - component: {fileID: -7377964307924209973}
   - component: {fileID: 3294140418415021778}
@@ -20,6 +89,7 @@ GameObject:
   - component: {fileID: 8223427626287291062}
   - component: {fileID: -3008100237228495771}
   - component: {fileID: 7713231003120589645}
+  - component: {fileID: -3162104451910538557}
   m_Layer: 9
   m_Name: Baddie
   m_TagString: Enemy
@@ -37,7 +107,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.131, y: -0.1345, z: 0}
   m_LocalScale: {x: 1, y: -1, z: 0}
-  m_Children: []
+  m_Children:
+  - {fileID: 8707506682394890652}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -101,7 +172,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f2560998f403d2b4cb7ff24a086b2e57, type: 3}
+  m_Sprite: {fileID: -7595929514590786526, guid: 80c17b8433ea7ab479993216993aa12e,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,25 +184,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &6984206110871739822
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5385924513247565243}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cf25881d605456e4b93d25d9275e85be, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &-994801248583880723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,17 +196,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0852f1d77f42de94f9f459dd728ce3e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Behindmask:
-    serializedVersion: 2
-    m_Bits: 512
   SoundWave: {fileID: 2206154179717757588, guid: 59db99ed437d08e41b36de23d9a78e99,
     type: 3}
-  BulletPrefab: {fileID: 1620930070878604822, guid: 9f7fd92cc611f26479db3c670fb7e8e3,
+  BulletPrefab: {fileID: 1620930070878604822, guid: 8d301f6ba6385d04c8f1be6d75d29ee9,
     type: 3}
   bullet:
     serializedVersion: 2
     m_Bits: 0
   alert: 0
+  shootTimer: 0
   Player: {fileID: 5915039111010611051, guid: a9dfccec9eceeff488191683e56e2b96, type: 3}
   enemyType: 0
   roteSpeed: 10000
@@ -161,14 +212,24 @@ MonoBehaviour:
   sightAngle: 45
   baddieRigidbody: {fileID: -4295063493957653607}
   startPosition: {x: 0, y: 0, z: 0}
-  speed: 7500
+  speed: 5000
   nextWaypointDistance: 3
   direction: {x: 0, y: 0}
   pathDestination: {x: 0, y: 0, z: 0}
+  sheWasRightThere: 0
   masterController: {fileID: 0}
   corpses: []
+  smellables: []
   fovLazer: {fileID: 4019523949390254910, guid: 7a2ff0b971917d3469894de5de5d3475,
     type: 3}
+  spriteRenderer: {fileID: 8824459089864592411}
+  IgnoreThisSee:
+    serializedVersion: 2
+    m_Bits: 513
+  IgnoreThisWalk:
+    serializedVersion: 2
+    m_Bits: 16897
+  smeller: {fileID: 0}
 --- !u!114 &-7377964307924209973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,11 +283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
+  version: 5
   radius: 0.5
   height: 2
-  repathRate: 0.5
-  canSearch: 1
   canMove: 1
   maxSpeed: 1
   gravity: {x: NaN, y: NaN, z: NaN}
@@ -234,8 +293,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   centerOffsetCompatibility: NaN
+  repathRateCompatibility: 0.5
+  canSearchCompability: 1
   orientation: 1
   enableRotation: 1
+  autoRepath:
+    mode: 2
+    interval: 0.5
+    sensitivity: 10
+    maximumInterval: 2
+    visualizeSensitivity: 0
   targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
@@ -279,7 +346,9 @@ MonoBehaviour:
   corpse: {fileID: 320802475346126125, guid: 2869a3e62ae8f3a48a3ee1ea1a812a1e, type: 3}
   maxHp: 0
   maxEnrgy: 0
+  lastHp: 0
   maxAmmo: 0
+  invulnerable: 0
 --- !u!114 &-3008100237228495771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,3 +380,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.53110754
+--- !u!114 &-3162104451910538557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5385924513247565243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ea20d863b572b47a49074cfc8d255c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationKey: {fileID: 2800000, guid: 80c17b8433ea7ab479993216993aa12e, type: 3}
+  animationframe: []
+  startpoints: 0000000001000000030000000e00000014000000
+  startName: []
+  spriteRenderer: {fileID: 8824459089864592411}
+  animating: 0

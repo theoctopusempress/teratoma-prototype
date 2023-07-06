@@ -226,6 +226,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9142145860758092392, guid: d5d74428cd5caaf4288b12e3b876202d,
+          type: 3}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6195668918863202064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +256,9 @@ MonoBehaviour:
   cost: 0
   listNum: 0
   parent: {fileID: 0}
+  discriptor: {fileID: 0}
+  GameManager: {fileID: 0}
+  invNotPrint: 1
 --- !u!114 &2079942113884170476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,6 +278,21 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 6195668918863202064}
           m_MethodName: InMouseOver
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6195668918863202064}
+          m_MethodName: OnMouseExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

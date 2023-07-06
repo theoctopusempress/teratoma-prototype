@@ -143,3 +143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   witness: {fileID: 0}
+  sightDistance: 10
+  sightAngle: 45
+  IgnoreThis:
+    serializedVersion: 2
+    m_Bits: 513

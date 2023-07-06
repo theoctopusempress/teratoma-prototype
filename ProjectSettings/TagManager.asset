@@ -19,6 +19,12 @@ TagManager:
   - scrapHeap
   - dialoger
   - mossword
+  - discriptor
+  - gameMenu
+  - ObjectiveMenu
+  - partOfPlayer
+  - bullet
+  - Sword
   layers:
   - Default
   - TransparentFX
@@ -33,8 +39,8 @@ TagManager:
   - Mask
   - black
   - volume
-  - 
-  - 
+  - Player
+  - opaqueButPermiable
   - 
   - 
   - 

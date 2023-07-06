@@ -142,3 +142,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   witness: {fileID: 5915039111010611052, guid: a9dfccec9eceeff488191683e56e2b96, type: 3}
+  IgnoreThis:
+    serializedVersion: 2
+    m_Bits: 7990

@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4487729670595254368}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7056678, w: -0.70854294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270.233}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4487729670595254374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 999ced6184707f344bbc650ed65fd3c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83301f7e5a4fc51439d410b4e917393d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,7 +96,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd0e2a09a316c64e9a954ea048a5305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  field: {fileID: 0}
   Player: {fileID: 5915039111010611051, guid: a9dfccec9eceeff488191683e56e2b96, type: 3}
   sightDistance: 10
   sightAngle: 45
@@ -104,16 +103,23 @@ MonoBehaviour:
     type: 3}
   masterController: {fileID: 0}
   selfDestuct: 0
-  friendly: 0
-  lastFriendly: 0
-  FOV: {fileID: 2992506675982203029, guid: 83e6de235dc31fd4fb74110085dccae2, type: 3}
   fovLazer: {fileID: 4019523949390254910, guid: 7a2ff0b971917d3469894de5de5d3475,
     type: 3}
   rotating: 0
   rotationAngle: 0
   roteSpeed: 1
+  currentRotation: {x: 0, y: 0, z: 0, w: 1}
   Explosion: {fileID: 3532040615960281667, guid: 472a13c81b6a29d4883f55b8d12a5ceb,
     type: 3}
+  spriteList:
+  - {fileID: -5696573446163069559, guid: 2abb469a0c0544542984847223208396, type: 3}
+  - {fileID: 9004755642773716914, guid: 2abb469a0c0544542984847223208396, type: 3}
+  - {fileID: 6734689227283273841, guid: 2abb469a0c0544542984847223208396, type: 3}
+  - {fileID: -1800445454569275749, guid: 2abb469a0c0544542984847223208396, type: 3}
+  - {fileID: 1042289428075674868, guid: 2abb469a0c0544542984847223208396, type: 3}
+  - {fileID: 8060346579141332796, guid: 2abb469a0c0544542984847223208396, type: 3}
+  - {fileID: -5291264800238863528, guid: 2abb469a0c0544542984847223208396, type: 3}
+  spriteRenderer: {fileID: 4487729670595254374}
 --- !u!114 &-5693526209318264423
 MonoBehaviour:
   m_ObjectHideFlags: 0
