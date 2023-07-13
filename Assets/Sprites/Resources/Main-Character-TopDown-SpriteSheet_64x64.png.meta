@@ -237,7 +237,7 @@ TextureImporter:
       213: 8241752719348424070
     second: Main-Character-TopDown-SpriteSheet_64x64_77
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -254,9 +254,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -266,8 +269,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -288,10 +291,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -303,6 +311,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -315,6 +324,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1968,9 +1991,87 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Main-Character-TopDown-SpriteSheet_64x64_0: -1064791419031847874
+      Main-Character-TopDown-SpriteSheet_64x64_1: 8697621335915348484
+      Main-Character-TopDown-SpriteSheet_64x64_10: 1982727605859739338
+      Main-Character-TopDown-SpriteSheet_64x64_11: -543968190203020273
+      Main-Character-TopDown-SpriteSheet_64x64_12: 8251471343261417648
+      Main-Character-TopDown-SpriteSheet_64x64_13: 1473503236667679790
+      Main-Character-TopDown-SpriteSheet_64x64_14: 6362664324561173505
+      Main-Character-TopDown-SpriteSheet_64x64_15: -1819209790265487266
+      Main-Character-TopDown-SpriteSheet_64x64_16: -5508382114785626912
+      Main-Character-TopDown-SpriteSheet_64x64_17: 8568248803814056952
+      Main-Character-TopDown-SpriteSheet_64x64_18: -5289093839868689076
+      Main-Character-TopDown-SpriteSheet_64x64_19: -597455342939940737
+      Main-Character-TopDown-SpriteSheet_64x64_2: -9063116800895579811
+      Main-Character-TopDown-SpriteSheet_64x64_20: 6176152079394762951
+      Main-Character-TopDown-SpriteSheet_64x64_21: -1010212791488202542
+      Main-Character-TopDown-SpriteSheet_64x64_22: 3570186001178979307
+      Main-Character-TopDown-SpriteSheet_64x64_23: -6414922313788231624
+      Main-Character-TopDown-SpriteSheet_64x64_24: -1195069993800681237
+      Main-Character-TopDown-SpriteSheet_64x64_25: 987018583085020644
+      Main-Character-TopDown-SpriteSheet_64x64_26: 211705100472847826
+      Main-Character-TopDown-SpriteSheet_64x64_27: -59430479286876267
+      Main-Character-TopDown-SpriteSheet_64x64_28: 7638913369818790795
+      Main-Character-TopDown-SpriteSheet_64x64_29: 3449498661601724651
+      Main-Character-TopDown-SpriteSheet_64x64_3: -258279450854582724
+      Main-Character-TopDown-SpriteSheet_64x64_30: -2324293880221977368
+      Main-Character-TopDown-SpriteSheet_64x64_31: -693088597836488189
+      Main-Character-TopDown-SpriteSheet_64x64_32: -9001151995666405358
+      Main-Character-TopDown-SpriteSheet_64x64_33: 1082050823437785200
+      Main-Character-TopDown-SpriteSheet_64x64_34: 8631921095230440472
+      Main-Character-TopDown-SpriteSheet_64x64_35: 579768257344259195
+      Main-Character-TopDown-SpriteSheet_64x64_36: -7457912937507924932
+      Main-Character-TopDown-SpriteSheet_64x64_37: -7342742444686243307
+      Main-Character-TopDown-SpriteSheet_64x64_38: -2448319395252262372
+      Main-Character-TopDown-SpriteSheet_64x64_39: 8404322943618902840
+      Main-Character-TopDown-SpriteSheet_64x64_4: 8473811431706521293
+      Main-Character-TopDown-SpriteSheet_64x64_40: -3175722430651988988
+      Main-Character-TopDown-SpriteSheet_64x64_41: -3219187816661684237
+      Main-Character-TopDown-SpriteSheet_64x64_42: 2384635612716254291
+      Main-Character-TopDown-SpriteSheet_64x64_43: 2822386424182260257
+      Main-Character-TopDown-SpriteSheet_64x64_44: 3355263228851588611
+      Main-Character-TopDown-SpriteSheet_64x64_45: 7418240521972050572
+      Main-Character-TopDown-SpriteSheet_64x64_46: -447638539715245834
+      Main-Character-TopDown-SpriteSheet_64x64_47: -3252253588219268400
+      Main-Character-TopDown-SpriteSheet_64x64_48: -5585981564867166050
+      Main-Character-TopDown-SpriteSheet_64x64_49: -2692368872816350920
+      Main-Character-TopDown-SpriteSheet_64x64_5: -519525482170864028
+      Main-Character-TopDown-SpriteSheet_64x64_50: 4082207880890279852
+      Main-Character-TopDown-SpriteSheet_64x64_51: 8983745457712549038
+      Main-Character-TopDown-SpriteSheet_64x64_52: -2721363127855323145
+      Main-Character-TopDown-SpriteSheet_64x64_53: 4631283833870815553
+      Main-Character-TopDown-SpriteSheet_64x64_54: -3008731754012802017
+      Main-Character-TopDown-SpriteSheet_64x64_55: -3438066615282622304
+      Main-Character-TopDown-SpriteSheet_64x64_56: 4976567782497091290
+      Main-Character-TopDown-SpriteSheet_64x64_57: -819810349758492509
+      Main-Character-TopDown-SpriteSheet_64x64_58: 6354573276414596719
+      Main-Character-TopDown-SpriteSheet_64x64_59: 3134861192626986683
+      Main-Character-TopDown-SpriteSheet_64x64_6: 8352135082755488243
+      Main-Character-TopDown-SpriteSheet_64x64_60: 5956237436194935322
+      Main-Character-TopDown-SpriteSheet_64x64_61: -1964975420696334981
+      Main-Character-TopDown-SpriteSheet_64x64_62: -6240804643309775407
+      Main-Character-TopDown-SpriteSheet_64x64_63: -7248111243009624502
+      Main-Character-TopDown-SpriteSheet_64x64_64: -5731094062305134695
+      Main-Character-TopDown-SpriteSheet_64x64_65: -4786630856401039416
+      Main-Character-TopDown-SpriteSheet_64x64_66: 2964738068863891582
+      Main-Character-TopDown-SpriteSheet_64x64_67: 283660300453543200
+      Main-Character-TopDown-SpriteSheet_64x64_68: 3062908252113651117
+      Main-Character-TopDown-SpriteSheet_64x64_69: -1533556000040752102
+      Main-Character-TopDown-SpriteSheet_64x64_7: -2530151639044347001
+      Main-Character-TopDown-SpriteSheet_64x64_70: -1351657362098822824
+      Main-Character-TopDown-SpriteSheet_64x64_71: 2632233605640088100
+      Main-Character-TopDown-SpriteSheet_64x64_72: -4650912735973602746
+      Main-Character-TopDown-SpriteSheet_64x64_73: -5532265704365870860
+      Main-Character-TopDown-SpriteSheet_64x64_74: 5703360125109261842
+      Main-Character-TopDown-SpriteSheet_64x64_75: 2258700664065394816
+      Main-Character-TopDown-SpriteSheet_64x64_76: -1217920834910654269
+      Main-Character-TopDown-SpriteSheet_64x64_77: 8241752719348424070
+      Main-Character-TopDown-SpriteSheet_64x64_8: 3113473123873147474
+      Main-Character-TopDown-SpriteSheet_64x64_9: 8847080838563728597
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

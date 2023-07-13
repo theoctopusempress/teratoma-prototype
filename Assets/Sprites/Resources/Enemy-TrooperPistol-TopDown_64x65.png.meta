@@ -63,7 +63,7 @@ TextureImporter:
       213: 8531128185403702255
     second: Enemy-TrooperPistol-TopDown_64x65_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -80,9 +80,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -92,8 +95,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -114,10 +117,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -129,6 +137,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -141,6 +150,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -576,9 +599,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Enemy-TrooperPistol-TopDown_64x65_0: -7595929514590786526
+      Enemy-TrooperPistol-TopDown_64x65_1: 4181716514946877602
+      Enemy-TrooperPistol-TopDown_64x65_10: 3211964737484549850
+      Enemy-TrooperPistol-TopDown_64x65_11: -655783025004468165
+      Enemy-TrooperPistol-TopDown_64x65_12: 2241762022050496219
+      Enemy-TrooperPistol-TopDown_64x65_13: 6145521977461443591
+      Enemy-TrooperPistol-TopDown_64x65_14: -9101662560422420287
+      Enemy-TrooperPistol-TopDown_64x65_15: -8385517374235178976
+      Enemy-TrooperPistol-TopDown_64x65_16: 5800309593542480548
+      Enemy-TrooperPistol-TopDown_64x65_17: -529736351040955858
+      Enemy-TrooperPistol-TopDown_64x65_18: -5232986298282084299
+      Enemy-TrooperPistol-TopDown_64x65_19: 8531128185403702255
+      Enemy-TrooperPistol-TopDown_64x65_2: -194077241297588465
+      Enemy-TrooperPistol-TopDown_64x65_3: -3240074712598558934
+      Enemy-TrooperPistol-TopDown_64x65_4: -6112703648996511469
+      Enemy-TrooperPistol-TopDown_64x65_5: 355041096581476633
+      Enemy-TrooperPistol-TopDown_64x65_6: -8058325515723863102
+      Enemy-TrooperPistol-TopDown_64x65_7: 4762223403854956974
+      Enemy-TrooperPistol-TopDown_64x65_8: -2324542084634229745
+      Enemy-TrooperPistol-TopDown_64x65_9: -7693547906687901019
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

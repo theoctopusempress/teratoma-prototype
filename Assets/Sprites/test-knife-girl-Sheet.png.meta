@@ -75,7 +75,7 @@ TextureImporter:
       213: 5568117462457089819
     second: test-knife-girl-Sheet_20
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,9 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -104,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -126,10 +129,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -141,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -153,6 +162,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -174,7 +197,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6b2b2d2c4835249d0800000000000000
-      internalID: -2791576989346909514
+      internalID: 6190313389229812890
       vertices: []
       indices: 
       edges: []
@@ -195,7 +218,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0a1b3eb1050f16300800000000000000
-      internalID: 243740081710674336
+      internalID: -1703514177057164659
       vertices: []
       indices: 
       edges: []
@@ -216,7 +239,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6b04a4142b3739e80800000000000000
-      internalID: -8173061689310560074
+      internalID: -6972475115225810622
       vertices: []
       indices: 
       edges: []
@@ -609,9 +632,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      test-knife-girl-Sheet_0: 6190313389229812890
+      test-knife-girl-Sheet_1: -1703514177057164659
+      test-knife-girl-Sheet_10: 161454364300106508
+      test-knife-girl-Sheet_11: 3008085293191015166
+      test-knife-girl-Sheet_12: -4753795166050054966
+      test-knife-girl-Sheet_13: 384534667538564363
+      test-knife-girl-Sheet_14: -6775152815420769455
+      test-knife-girl-Sheet_15: -550921029137213868
+      test-knife-girl-Sheet_16: -8578781889778745783
+      test-knife-girl-Sheet_17: 4924116768084472242
+      test-knife-girl-Sheet_18: -3826198216859740477
+      test-knife-girl-Sheet_19: -8482830990566389714
+      test-knife-girl-Sheet_2: -6972475115225810622
+      test-knife-girl-Sheet_20: 5568117462457089819
+      test-knife-girl-Sheet_3: -5785311007128847207
+      test-knife-girl-Sheet_4: -9034318255773849418
+      test-knife-girl-Sheet_5: 6017090738446300281
+      test-knife-girl-Sheet_6: 4921122869288141558
+      test-knife-girl-Sheet_7: -6639196885155403188
+      test-knife-girl-Sheet_8: -1172698314387898379
+      test-knife-girl-Sheet_9: 7105776581299781990
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

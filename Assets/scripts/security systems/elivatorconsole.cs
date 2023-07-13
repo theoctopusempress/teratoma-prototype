@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Experimental.Rendering.Universal;
+
 public class elivatorconsole : MonoBehaviour
 {
     GameObject player;
@@ -19,7 +19,7 @@ public class elivatorconsole : MonoBehaviour
     public GameObject hackingUI;
     public bool onElivator;
     public GameObject ObjectiveMenu;
-    public Light2D lit;
+    public UnityEngine.Rendering.Universal.Light2D lit;
     public AudioSource elivatorSound;
     //public GameObject[] keyList;
     // Start is called before the first frame update

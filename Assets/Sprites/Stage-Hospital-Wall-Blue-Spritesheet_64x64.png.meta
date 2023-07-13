@@ -99,7 +99,7 @@ TextureImporter:
       213: 7103177388932067920
     second: Stage-Hospital-Wall-Blue-Spritesheet_64x64_31
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,9 +116,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,8 +131,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -150,10 +153,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -165,6 +173,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -177,6 +186,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -910,9 +933,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_0: 1178177440386776173
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_1: -215818253108165744
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_10: 1332376253604211181
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_11: 2533032099072836578
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_12: 6905191174821544493
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_13: 2910704328404379184
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_14: 5590520245109379728
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_15: 757274333097338515
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_16: 7212104230315469123
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_17: -62618379404285033
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_18: -2583705395246935222
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_19: -6422736288910982267
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_2: -3496041647957291890
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_20: 263244635445932305
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_21: -1836747208245529807
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_22: 5367495300263216237
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_23: 6785704079440698214
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_24: 8477653522415749868
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_25: 2737809743100890335
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_26: 8425544869111129469
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_27: -6197061921545939183
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_28: 3899769384742366063
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_29: -7605853279850693902
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_3: 4487248150323250645
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_30: 5903661176447861629
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_31: 7103177388932067920
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_4: 286777249958625857
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_5: -6657295899784395323
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_6: -5746745180035655283
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_7: -5459465453906169796
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_8: 4521435511936769086
+      Stage-Hospital-Wall-Blue-Spritesheet_64x64_9: -8930456849894641498
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

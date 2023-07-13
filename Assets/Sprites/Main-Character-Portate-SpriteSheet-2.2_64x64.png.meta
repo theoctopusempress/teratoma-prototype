@@ -291,7 +291,7 @@ TextureImporter:
       213: -5185324319609858724
     second: Main-Character-Portate-SpriteSheet-2.2_64x64_95
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -308,9 +308,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -320,8 +323,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -342,10 +345,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -357,6 +365,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -369,6 +378,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2400,9 +2423,105 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Main-Character-Portate-SpriteSheet-2.2_64x64_0: 3892241116296078836
+      Main-Character-Portate-SpriteSheet-2.2_64x64_1: -6734291320178084617
+      Main-Character-Portate-SpriteSheet-2.2_64x64_10: -7381545409003863685
+      Main-Character-Portate-SpriteSheet-2.2_64x64_11: 2101674939030874331
+      Main-Character-Portate-SpriteSheet-2.2_64x64_12: -8953670084012908082
+      Main-Character-Portate-SpriteSheet-2.2_64x64_13: -5104583839673483375
+      Main-Character-Portate-SpriteSheet-2.2_64x64_14: -2733720028248896525
+      Main-Character-Portate-SpriteSheet-2.2_64x64_15: -9008331362708703034
+      Main-Character-Portate-SpriteSheet-2.2_64x64_16: 4252290833062333921
+      Main-Character-Portate-SpriteSheet-2.2_64x64_17: -2340484393852899882
+      Main-Character-Portate-SpriteSheet-2.2_64x64_18: -5602776047254664693
+      Main-Character-Portate-SpriteSheet-2.2_64x64_19: 2319431893044094295
+      Main-Character-Portate-SpriteSheet-2.2_64x64_2: 3663297766922756927
+      Main-Character-Portate-SpriteSheet-2.2_64x64_20: 3402893246695603756
+      Main-Character-Portate-SpriteSheet-2.2_64x64_21: 1799810687051484561
+      Main-Character-Portate-SpriteSheet-2.2_64x64_22: -3183986299811754203
+      Main-Character-Portate-SpriteSheet-2.2_64x64_23: 4414962329760370476
+      Main-Character-Portate-SpriteSheet-2.2_64x64_24: -361678505898293849
+      Main-Character-Portate-SpriteSheet-2.2_64x64_25: 5783625304933775754
+      Main-Character-Portate-SpriteSheet-2.2_64x64_26: 6278713451406666137
+      Main-Character-Portate-SpriteSheet-2.2_64x64_27: -1611506483278385959
+      Main-Character-Portate-SpriteSheet-2.2_64x64_28: 6536427002982135253
+      Main-Character-Portate-SpriteSheet-2.2_64x64_29: -1333408316190457901
+      Main-Character-Portate-SpriteSheet-2.2_64x64_3: 8663417159589873803
+      Main-Character-Portate-SpriteSheet-2.2_64x64_30: -3929741360356599601
+      Main-Character-Portate-SpriteSheet-2.2_64x64_31: -2574024891396376241
+      Main-Character-Portate-SpriteSheet-2.2_64x64_32: -338030142069343247
+      Main-Character-Portate-SpriteSheet-2.2_64x64_33: -1358238140390567877
+      Main-Character-Portate-SpriteSheet-2.2_64x64_34: 2247258453637127081
+      Main-Character-Portate-SpriteSheet-2.2_64x64_35: -5208308247795840224
+      Main-Character-Portate-SpriteSheet-2.2_64x64_36: -5443104453571926783
+      Main-Character-Portate-SpriteSheet-2.2_64x64_37: 3549154408461372431
+      Main-Character-Portate-SpriteSheet-2.2_64x64_38: 518790346657124991
+      Main-Character-Portate-SpriteSheet-2.2_64x64_39: 7625921749523135763
+      Main-Character-Portate-SpriteSheet-2.2_64x64_4: 6885659578323439189
+      Main-Character-Portate-SpriteSheet-2.2_64x64_40: -4204794926047402022
+      Main-Character-Portate-SpriteSheet-2.2_64x64_41: -1253437555451198251
+      Main-Character-Portate-SpriteSheet-2.2_64x64_42: -8743910890990325789
+      Main-Character-Portate-SpriteSheet-2.2_64x64_43: -1183098783916099456
+      Main-Character-Portate-SpriteSheet-2.2_64x64_44: -5912218471561307286
+      Main-Character-Portate-SpriteSheet-2.2_64x64_45: -5487044338195738499
+      Main-Character-Portate-SpriteSheet-2.2_64x64_46: 8380498461926588743
+      Main-Character-Portate-SpriteSheet-2.2_64x64_47: 8434630204756811433
+      Main-Character-Portate-SpriteSheet-2.2_64x64_48: -7339106269649010805
+      Main-Character-Portate-SpriteSheet-2.2_64x64_49: -755082534639176251
+      Main-Character-Portate-SpriteSheet-2.2_64x64_5: 3890368984258922535
+      Main-Character-Portate-SpriteSheet-2.2_64x64_50: 7800418566090738705
+      Main-Character-Portate-SpriteSheet-2.2_64x64_51: 8596872071301389315
+      Main-Character-Portate-SpriteSheet-2.2_64x64_52: 8041703662532473947
+      Main-Character-Portate-SpriteSheet-2.2_64x64_53: 2900681541836409474
+      Main-Character-Portate-SpriteSheet-2.2_64x64_54: -1192643683763409409
+      Main-Character-Portate-SpriteSheet-2.2_64x64_55: -709615375642578465
+      Main-Character-Portate-SpriteSheet-2.2_64x64_56: -3037622612925440410
+      Main-Character-Portate-SpriteSheet-2.2_64x64_57: 1605308836798290907
+      Main-Character-Portate-SpriteSheet-2.2_64x64_58: 5021167439595810238
+      Main-Character-Portate-SpriteSheet-2.2_64x64_59: -6088092701903477746
+      Main-Character-Portate-SpriteSheet-2.2_64x64_6: -5452563411120075120
+      Main-Character-Portate-SpriteSheet-2.2_64x64_60: 4036503245019798413
+      Main-Character-Portate-SpriteSheet-2.2_64x64_61: 5716469056163094689
+      Main-Character-Portate-SpriteSheet-2.2_64x64_62: 2688078719201544161
+      Main-Character-Portate-SpriteSheet-2.2_64x64_63: 1420467272513110678
+      Main-Character-Portate-SpriteSheet-2.2_64x64_64: -6160788390785984067
+      Main-Character-Portate-SpriteSheet-2.2_64x64_65: -1573307711433706676
+      Main-Character-Portate-SpriteSheet-2.2_64x64_66: 2132189907121379443
+      Main-Character-Portate-SpriteSheet-2.2_64x64_67: -8566485702144259316
+      Main-Character-Portate-SpriteSheet-2.2_64x64_68: -3519614994011194784
+      Main-Character-Portate-SpriteSheet-2.2_64x64_69: -1719126181244550201
+      Main-Character-Portate-SpriteSheet-2.2_64x64_7: -5521663733195577639
+      Main-Character-Portate-SpriteSheet-2.2_64x64_70: -674133624843052601
+      Main-Character-Portate-SpriteSheet-2.2_64x64_71: 5749081593613691185
+      Main-Character-Portate-SpriteSheet-2.2_64x64_72: -4747240686349011584
+      Main-Character-Portate-SpriteSheet-2.2_64x64_73: -4352628452894963699
+      Main-Character-Portate-SpriteSheet-2.2_64x64_74: 5111300142459857650
+      Main-Character-Portate-SpriteSheet-2.2_64x64_75: -6376913464054783160
+      Main-Character-Portate-SpriteSheet-2.2_64x64_76: -5713328349279857498
+      Main-Character-Portate-SpriteSheet-2.2_64x64_77: -597753470153445298
+      Main-Character-Portate-SpriteSheet-2.2_64x64_78: 4413656018911979520
+      Main-Character-Portate-SpriteSheet-2.2_64x64_79: -4887595601063495821
+      Main-Character-Portate-SpriteSheet-2.2_64x64_8: 3973516494392285182
+      Main-Character-Portate-SpriteSheet-2.2_64x64_80: 4764751085280164993
+      Main-Character-Portate-SpriteSheet-2.2_64x64_81: -7194504601059878648
+      Main-Character-Portate-SpriteSheet-2.2_64x64_82: -4852289299981510780
+      Main-Character-Portate-SpriteSheet-2.2_64x64_83: -452247299984108240
+      Main-Character-Portate-SpriteSheet-2.2_64x64_84: -3285404303103122462
+      Main-Character-Portate-SpriteSheet-2.2_64x64_85: 5257136693621666272
+      Main-Character-Portate-SpriteSheet-2.2_64x64_86: 1315389908967927489
+      Main-Character-Portate-SpriteSheet-2.2_64x64_87: -876162674745085575
+      Main-Character-Portate-SpriteSheet-2.2_64x64_88: -8145962156458541908
+      Main-Character-Portate-SpriteSheet-2.2_64x64_89: 667371943552134552
+      Main-Character-Portate-SpriteSheet-2.2_64x64_9: 4238460411440790897
+      Main-Character-Portate-SpriteSheet-2.2_64x64_90: -6040150668084440030
+      Main-Character-Portate-SpriteSheet-2.2_64x64_91: -1834295669191912920
+      Main-Character-Portate-SpriteSheet-2.2_64x64_92: 1808762493267842482
+      Main-Character-Portate-SpriteSheet-2.2_64x64_93: 3276700632014326820
+      Main-Character-Portate-SpriteSheet-2.2_64x64_94: -6563540966074261125
+      Main-Character-Portate-SpriteSheet-2.2_64x64_95: -5185324319609858724
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.Experimental.Rendering.Universal;
+
 using UnityEngine;
 
 public class fogOfWar : MonoBehaviour
@@ -21,14 +21,14 @@ public class fogOfWar : MonoBehaviour
     {
         if(other.gameObject == Player)
         {
-            GetComponent<Light2D>().enabled = true;
+            GetComponent<UnityEngine.Rendering.Universal.Light2D>().enabled = true;
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject == Player)
         {
-            GetComponent<Light2D>().enabled = false;
+            GetComponent<UnityEngine.Rendering.Universal.Light2D>().enabled = false;
         }
     }
 }
